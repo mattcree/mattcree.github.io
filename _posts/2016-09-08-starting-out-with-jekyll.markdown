@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting out with Jekyll"
-date:   2016-09-07
+date:   2016-09-08
 categories: programming
 tags: jekyll ruby
 ---

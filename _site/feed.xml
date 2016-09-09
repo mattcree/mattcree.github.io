@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Loadsa Code</title>
-    <description>This works?
+    <description>A blogging journey into code, Math, and ThinkPads.
 </description>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Sep 2016 19:09:16 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Sep 2016 19:09:16 +0100</lastBuildDate>
+    <link>http://mattcree.github.io/</link>
+    <atom:link href="http://mattcree.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 10 Sep 2016 00:35:58 +0100</pubDate>
+    <lastBuildDate>Sat, 10 Sep 2016 00:35:58 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -83,9 +83,9 @@
 &lt;p&gt;Until next time.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 07 Sep 2016 00:00:00 +0100</pubDate>
-        <link>http://example.com/programming/2016/09/07/starting-out-with-jekyll.html</link>
-        <guid isPermaLink="true">http://example.com/programming/2016/09/07/starting-out-with-jekyll.html</guid>
+        <pubDate>Thu, 08 Sep 2016 00:00:00 +0100</pubDate>
+        <link>http://mattcree.github.io/programming/2016/09/08/starting-out-with-jekyll.html</link>
+        <guid isPermaLink="true">http://mattcree.github.io/programming/2016/09/08/starting-out-with-jekyll.html</guid>
         
         <category>jekyll</category>
         

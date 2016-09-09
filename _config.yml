@@ -16,12 +16,14 @@
 title: Loadsa Code	
 email: nostalgiaforinfinity@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This works?
+	A blogging journey into code, Math, and ThinkPads.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: bazza	
+url: "http://mattcree.github.io" # the base hostname & protocol for your site
 github_username:  mattcree
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+#Analytics
+google_analytics: UA-83912193-1
