@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -14,7 +13,6 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h2>
-	      
 	      <p> 
           {{ post.excerpt }}
           <a href="{{ post.url }}">
@@ -24,11 +22,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
 
 {% include analytics.html %}
