@@ -5,9 +5,87 @@
     <description>A blogging journey into code, Math, and ThinkPads.</description>
     <link>http://mattcree.github.io/</link>
     <atom:link href="http://mattcree.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Sep 2016 17:57:05 +0100</pubDate>
-    <lastBuildDate>Sat, 10 Sep 2016 17:57:05 +0100</lastBuildDate>
+    <pubDate>Tue, 13 Sep 2016 03:33:29 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Sep 2016 03:33:29 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>The Upgraded iPod Mini in 2016</title>
+        <description>&lt;p&gt;Many years ago, when the mechanical drive was king, hacking the iPod was a popular past-time. I kid; not popular, but among those who can’t live with a piece of hardware they haven’t tinkered with, stripped down and rebuilt, and upgraded beyond its original spec, it was a cheap and easy way to get something worth more than the sum of its parts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ipod/4.JPG&quot; alt=&quot;Front&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The iPod Mini was and still is a reasonably good candidate for a makeover. It is the only iPod that can be upgraded without an adapter, seeing as the microdrives which are used in them implement the True IDE spec used by Compact Flash cards, and have the same interface and pinout as CF cards. They’re basically mechanical CF cards.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-upgrades&quot;&gt;The Upgrades&lt;/h1&gt;
+
+&lt;p&gt;The iPod Mini can be upgraded with new hardware and new software; neither of which will let you leave with your warranty intact (not that you’ve got one 12 years later). There were two iterations of the device (1st generation and 2nd generation; identified by ‘2004’ on the back for 1st generation, and ‘2005’ for 2nd) the latter of which improved the battery life, a supposed 20 hours of playtime. The original hardware specs include a 4GB (or 6GB) Microdrive and Apple’s proprietary operating system – both of which I put under the knife.&lt;/p&gt;
+
+&lt;h2 id=&quot;storage-upgrade-sandisk-extreme-pro-128gb-cf&quot;&gt;Storage Upgrade: Sandisk Extreme Pro 128GB CF&lt;/h2&gt;
+
+&lt;p&gt;So I went all out. I only own about 35GB of music, but I really couldn’t help myself – bigger is better when it comes to storage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sandisk128gbcf.jpg&quot; alt=&quot;Sandisk 128GB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are cheaper options than purchasing a 128GB Compact Flash card, which are actually creeping up in price these days probably due to rarity. They include buying a Compact Flash to SDXC adapter and SD Card, or going with a 64GB or below CF card, which have a better price-per-GB.&lt;/p&gt;
+
+&lt;p&gt;I acquired a Sandisk Extreme Pro 128GB 100MB/s CF card. You almost certainly don’t need to buy such a high end CF card as you won’t be able to use its full potential. The bottleneck is the iPod Mini in this case.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/transfer.png&quot; alt=&quot;Speed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was transferring a roughly 500MB Windows 95 ISO in the above image, but even with multiple smaller files it seems to hold steady around 4.7MB/s. Transferring my 35GB music collection took about 2-2.5 hours to complete.&lt;/p&gt;
+
+&lt;p&gt;You could probably make do with a budget card whose transfer rate is much lower. Sandisk claim a minimum sustained write speed of 20MB/s with the card I chose, and 100MB/s maximum – both much, much higher than what the Mini is capable of.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-worth-it&quot;&gt;Is it worth it?&lt;/h3&gt;
+
+&lt;p&gt;More space means that you can afford to put a substantial amount of music onto these devices. That’s good for your music quantitatively and qualitatively – more on that in the next section. It may be slow, but it’s still adequate for everyday use as a file store on the go – probably not if you’re transferring multiple gigabybtes in one session though!&lt;/p&gt;
+
+&lt;p&gt;Many people have covered the process of tearing down the Mini, and all-in-all it’s a &lt;a href=&quot;http://www.rockbox.org/wiki/MiniCF&quot;&gt;fairly easy process&lt;/a&gt; requiring very little technical know-how. The SD card with SDXC to CF adapter method I mentioned originally is probably the cheapesy way to upgrade these devices now – just make sure you get the SDXC (the ‘XC’ part is important) adapter if you’re going to use a 64GB or greater card. People have put 256GB cards into these things! Imagine how long it would take to fill it!&lt;/p&gt;
+
+&lt;h2 id=&quot;software-upgrade-rockbox-313&quot;&gt;Software Upgrade: RockBox 3.13&lt;/h2&gt;
+
+&lt;p&gt;This one is possible even without opening up the iPod. &lt;a href=&quot;http://www.rockbox.org&quot;&gt;Rockbox&lt;/a&gt; is a free, open source replacement for the operating software found on a number of consumer music players. Not all generations of iPod are supported, but most of those containing a mechanical drive are. For a full compatibility list, check &lt;a href=&quot;http://www.rockbox.org/wiki/TargetStatus&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ipod/3.JPG&quot; alt=&quot;Info&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My first iPod was the pre-clickwheel 3rd generation 15GB model. This was my first exposure to iPodLinux, a now defunct Linux software solution for these devices. To a great extent it could do what RockBox can do – replace the original software features of the iPod, run plugins and other software (even Doom – a game not exactly &lt;em&gt;perfectly&lt;/em&gt; suited to a clickwheel for control), and allow the user to dump files onto the iPod without iTunes – the biggest advantage!&lt;/p&gt;
+
+&lt;p&gt;Now Rockbox is largely defunct as well with the last stable update having taken place during March 2013 – obviously the market for dedicated portable music hardware is dwindling with the ubiquity of smartphones and tablets and all other swiss-army-knife-esque devices that we surround ourselves with, but I digress. It’s as mature as it needs to be for everyday use as a music player, so it’s not worth worrying about.&lt;/p&gt;
+
+&lt;p&gt;It’s an almost one-click installation process on Windows (installers are also available for Mac OS X and Linux) and it still allows you to use your iPod with the original firmware by holding &lt;em&gt;Menu&lt;/em&gt; on startup&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-worth-it-1&quot;&gt;Is it worth it?&lt;/h2&gt;
+
+&lt;p&gt;The immediate advantages are that you can play exotic file formats without reconversion (full list &lt;a href=&quot;http://www.rockbox.org/wiki/SoundCodecs&quot;&gt;here&lt;/a&gt;). You can just plug your device into the computer, drag and drop the files, disconnect, do a database rebuild on the device, and play your files! Not having to install the bloatware marketplace that is iTunes makes this a must-have upgrade.&lt;/p&gt;
+
+&lt;p&gt;There is anecdotal evidence that battery life is also improved over the stock firmware (I have yet to confirm these whispers).&lt;/p&gt;
+
+&lt;p&gt;One of my favourite features is the high resolution volume control – 100 levels of volume are available, making it easy to choose your sweet spot. It also represents that value (in the default theme at lest) in decibels.&lt;/p&gt;
+
+&lt;h1 id=&quot;cost-worth-it&quot;&gt;Cost: Worth it?&lt;/h1&gt;
+
+&lt;p&gt;Short answer: yes! Though a gentlemen ordinarily never tells, I will say that this entire setup cost me £36. I had my eye on the Sandisk Sansa devices, and found they rarely sell for less than about £25 even second hand, then add the price of a MicroSD, and it makes it around £40+ to get something comparable. Yes, the Sansa is smaller, but I prefer the form factor of the Mini and the clickwheel was and is an ingenius solution for navigating lists such as those generally found in music players.&lt;/p&gt;
+
+&lt;p&gt;The only concern I have now is that I may want to replace the battery with a higher capacity unit. I have yet to fully field test it. Wish me luck.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Sep 2016 00:00:00 +0100</pubDate>
+        <link>http://mattcree.github.io/technology/2016/09/13/ipod-mini-in-2016.html</link>
+        <guid isPermaLink="true">http://mattcree.github.io/technology/2016/09/13/ipod-mini-in-2016.html</guid>
+        
+        <category>ipod</category>
+        
+        <category>apple</category>
+        
+        <category>upgrade</category>
+        
+        <category>hack</category>
+        
+        
+        <category>technology</category>
+        
+      </item>
     
       <item>
         <title>My 'special' ThinkPad T500</title>

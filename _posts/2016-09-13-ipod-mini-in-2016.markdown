@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "The Upgraded iPod Mini in 2016"
+date:   2016-09-13
+categories: technology
+tags: ipod apple upgrade hack
+---
+
+Many years ago, when the mechanical drive was king, hacking the iPod was a popular past-time. I kid; not popular, but among those who can't live with a piece of hardware they haven't tinkered with, stripped down and rebuilt, and upgraded beyond its original spec, it was a cheap and easy way to get something worth more than the sum of its parts.
+
+![Front][1]
+
+The iPod Mini was and still is a reasonably good candidate for a makeover. It is the only iPod that can be upgraded without an adapter, seeing as the microdrives which are used in them implement the True IDE spec used by Compact Flash cards, and have the same interface and pinout as CF cards. They're basically mechanical CF cards.
+
+# The Upgrades
+
+The iPod Mini can be upgraded with new hardware and new software; neither of which will let you leave with your warranty intact (not that you've got one 12 years later). There were two iterations of the device (1st generation and 2nd generation; identified by '2004' on the back for 1st generation, and '2005' for 2nd) the latter of which improved the battery life, a supposed 20 hours of playtime. The original hardware specs include a 4GB (or 6GB) Microdrive and Apple's proprietary operating system -- both of which I put under the knife.
+
+## Storage Upgrade: Sandisk Extreme Pro 128GB CF
+
+So I went all out. I only own about 35GB of music, but I really couldn't help myself -- bigger is better when it comes to storage. 
+
+![Sandisk 128GB][3]
+
+There are cheaper options than purchasing a 128GB Compact Flash card, which are actually creeping up in price these days probably due to rarity. They include buying a Compact Flash to SDXC adapter and SD Card, or going with a 64GB or below CF card, which have a better price-per-GB.
+
+I acquired a Sandisk Extreme Pro 128GB 100MB/s CF card. You almost certainly don't need to buy such a high end CF card as you won't be able to use its full potential. The bottleneck is the iPod Mini in this case.
+
+![Speed][4]
+
+I was transferring a roughly 500MB Windows 95 ISO in the above image, but even with multiple smaller files it seems to hold steady around 4.7MB/s. Transferring my 35GB music collection took about 2-2.5 hours to complete. 
+
+You could probably make do with a budget card whose transfer rate is much lower. Sandisk claim a minimum sustained write speed of 20MB/s with the card I chose, and 100MB/s maximum -- both much, much higher than what the Mini is capable of.
+
+### Is it worth it?
+
+More space means that you can afford to put a substantial amount of music onto these devices. That's good for your music quantitatively and qualitatively -- more on that in the next section. It may be slow, but it's still adequate for everyday use as a file store on the go -- probably not if you're transferring multiple gigabybtes in one session though!
+
+Many people have covered the process of tearing down the Mini, and all-in-all it's a [fairly easy process][8] requiring very little technical know-how. The SD card with SDXC to CF adapter method I mentioned originally is probably the cheapesy way to upgrade these devices now -- just make sure you get the SDXC (the 'XC' part is important) adapter if you're going to use a 64GB or greater card. People have put 256GB cards into these things! Imagine how long it would take to fill it!
+
+## Software Upgrade: RockBox 3.13
+
+This one is possible even without opening up the iPod. [Rockbox][5] is a free, open source replacement for the operating software found on a number of consumer music players. Not all generations of iPod are supported, but most of those containing a mechanical drive are. For a full compatibility list, check [here][6].
+
+![Info][2]
+
+My first iPod was the pre-clickwheel 3rd generation 15GB model. This was my first exposure to iPodLinux, a now defunct Linux software solution for these devices. To a great extent it could do what RockBox can do -- replace the original software features of the iPod, run plugins and other software (even Doom -- a game not exactly *perfectly* suited to a clickwheel for control), and allow the user to dump files onto the iPod without iTunes -- the biggest advantage! 
+
+Now Rockbox is largely defunct as well with the last stable update having taken place during March 2013 -- obviously the market for dedicated portable music hardware is dwindling with the ubiquity of smartphones and tablets and all other swiss-army-knife-esque devices that we surround ourselves with, but I digress. It's as mature as it needs to be for everyday use as a music player, so it's not worth worrying about.
+
+It's an almost one-click installation process on Windows (installers are also available for Mac OS X and Linux) and it still allows you to use your iPod with the original firmware by holding *Menu* on startup
+
+## Is it worth it?
+
+The immediate advantages are that you can play exotic file formats without reconversion (full list [here][7]). You can just plug your device into the computer, drag and drop the files, disconnect, do a database rebuild on the device, and play your files! Not having to install the bloatware marketplace that is iTunes makes this a must-have upgrade.
+
+There is anecdotal evidence that battery life is also improved over the stock firmware (I have yet to confirm these whispers).
+
+One of my favourite features is the high resolution volume control -- 100 levels of volume are available, making it easy to choose your sweet spot. It also represents that value (in the default theme at lest) in decibels.
+
+# Cost: Worth it?
+
+Short answer: yes! Though a gentlemen ordinarily never tells, I will say that this entire setup cost me £36. I had my eye on the Sandisk Sansa devices, and found they rarely sell for less than about £25 even second hand, then add the price of a MicroSD, and it makes it around £40+ to get something comparable. Yes, the Sansa is smaller, but I prefer the form factor of the Mini and the clickwheel was and is an ingenius solution for navigating lists such as those generally found in music players.
+
+The only concern I have now is that I may want to replace the battery with a higher capacity unit. I have yet to fully field test it. Wish me luck.
+
+
+[1]: /assets/ipod/4.JPG 
+[2]: /assets/ipod/3.JPG
+[3]: /assets/sandisk128gbcf.jpg
+[4]: /assets/transfer.png
+[5]: http://www.rockbox.org
+[6]: http://www.rockbox.org/wiki/TargetStatus
+[7]: http://www.rockbox.org/wiki/SoundCodecs
+[8]: http://www.rockbox.org/wiki/MiniCF
+
+
+
