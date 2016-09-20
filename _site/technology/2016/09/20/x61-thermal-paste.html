@@ -34,96 +34,48 @@
 	
 	<main class="page-content" aria-label="Content">
   <div class="wrapper">
-  	<div class="home">
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Sep 20, 2016</span>
+  	<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2>
-          <a class="post-link" href="/technology/2016/09/20/x61-thermal-paste.html">
-            The ThinkPad X61: Thermal paste replacement
-          </a>
-        </h2>
-	      <p> 
-          <p>The X61 was the last 4:3 aspect ultraportable produced by Lenovo; the end of an era. I’ve owned a couple of X60’s and an X61 and they all seemed to share the same issue – poor thermal performance. In laymans terms, they run seriously hot.</p>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The ThinkPad X61: Thermal paste replacement</h1>
+    <p class="post-meta"><time datetime="2016-09-20T00:00:00+01:00" itemprop="datePublished">Sep 20, 2016</time></p>
+  </header>
 
+  <div class="post-content" itemprop="articleBody">
+    <p>The X61 was the last 4:3 aspect ultraportable produced by Lenovo; the end of an era. I’ve owned a couple of X60’s and an X61 and they all seemed to share the same issue – poor thermal performance. In laymans terms, they run seriously hot.</p>
 
-          <a href="/technology/2016/09/20/x61-thermal-paste.html">
-            More
-          </a> 
-        </p>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 13, 2016</span>
+<p><img src="/assets/x61/DSC_0222.JPG" alt="Front" /></p>
 
-        <h2>
-          <a class="post-link" href="/technology/2016/09/13/ipod-mini-in-2016.html">
-            The Upgraded iPod Mini in 2016
-          </a>
-        </h2>
-	      <p> 
-          <p>Many years ago, when the mechanical drive was king, hacking the iPod was a popular past-time. I kid; not popular, but among those who can’t live with a piece of hardware they haven’t tinkered with, stripped down and rebuilt, and upgraded beyond its original spec, it was a cheap and easy way to get something worth more than the sum of its parts.</p>
+<p>The model used by my partner has an Intel T7100 1.83GHz CPU. A little trick that can be used with these laptops for a little bit more performance, is to enable Dual-IDA by installing <a href="http://www.thinkwiki.org/wiki/Middleton's_BIOS#Installation">Middleton’s BIOS</a>. IDA (Intel Dynamic Acceleration, later Turbo Boost) was, on these CPUs, limited to one core. It basically increments the CPU multiplier by one on one core for a bit of extra performance, shortening the race-to-idle. With Dual-IDA, it allows it to happen on both cores simultaneously (I use [ThrottleStop][8] to manage Core 2’s). Unfortunately the X61 gets mighty toasty when making use of this trick, so I decided it might be time to investigate the thermal paste.</p>
 
+<h1 id="the-teardown">The teardown</h1>
 
-          <a href="/technology/2016/09/13/ipod-mini-in-2016.html">
-            More
-          </a> 
-        </p>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 10, 2016</span>
+<p><img src="/assets/x61/DSC_0223.JPG" alt="Keyboard off" /></p>
 
-        <h2>
-          <a class="post-link" href="/technology/2016/09/10/my-special-thinkpad-t500.html">
-            My &#39;special&#39; ThinkPad T500
-          </a>
-        </h2>
-	      <p> 
-          <p>I’m a big fan of ThinkPads. Over the years I’ve owned quite a variety. Starting with a T61p  then an X60, X61, T60 4:3, X200, X230, and the subject of this post – the T500.</p>
+<p>Unfortunately the X61 isn’t quite as easy to work on as, say, the T61 or T500. Being an ultraportable meant the design had to be a bit more clever to keep everthing fitting inside the limited space. In the X61’s case, the CPU and HSF are on the bottom of the board and the only way to access it is to remove the entire board.</p>
+
+<p><img src="/assets/x61/DSC_0224.JPG" alt="Motherboard removed" /></p>
+
+<p>As you can see above, there are quite a few cables with tiny connectors which have to be removed before you can lift the board out. I wonder if all the plastic protection (presumably anti-static?) on the top layer of the board might contributing to the generally poor thermal performance? The type of protection is generally only used sparingly on the larger laptops.</p>
+
+<p><img src="/assets/x61/DSC_0225.JPG" alt="Motherboard bottom" /></p>
+
+<p>Once the board is out, it’s a simple process of unscrewing the heat sink. Note: to remove it completely, there’s a screw that attaches it from the other side of the board, inside the ExpressCard slot – it’s easy to miss.</p>
+
+<p><img src="/assets/x61/DSC_0227.JPG" alt="Old paste" /></p>
+
+<p>The old paste was fairly caked on, which is fairly common for factory installed paste. It wasn’t as dry and brittle as I have come to expect. Unfortunately my thermal paste (Arctic MX-5) was dropped and the nozzle popped off, leaving me with a hassle every time I want to put some paste on something. It’s always messy!</p>
+
+<p><img src="/assets/x61/DSC_0228.JPG" alt="New paste" /></p>
+
+<p>Not my finest hour in terms of thermal paste application – I did what I could without making a pig’s ear of it. I decided to ditch the thermal pad covering the, what I presume to be, Intel X3100 chip in favour of fairly hefty quantity of paste – I had to make up the thickness of the pad. I reckon a thick helping of paste is better than any pad though I tend to subscribe to the ‘less is more’ school of thermal paste (if such a thing exists).</p>
+
+<p>So far the thermals seem marginally better, but I’m going to let the paste cure for a bit before passing final judgment. I wish it had a Penryn!</p>
 
 
-          <a href="/technology/2016/09/10/my-special-thinkpad-t500.html">
-            More
-          </a> 
-        </p>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 8, 2016</span>
+  </div>
 
-        <h2>
-          <a class="post-link" href="/programming/2016/09/08/starting-out-with-jekyll.html">
-            Starting out with Jekyll
-          </a>
-        </h2>
-	      <p> 
-          <p>I’m Matt, and I decided I’d start this blog to discuss the different topics I’m learning about in the area of coding, Maths, technology, and anything else I think is interesting or relevant.</p>
-
-
-          <a href="/programming/2016/09/08/starting-out-with-jekyll.html">
-            More
-          </a> 
-        </p>
-      </li>
-    
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-</div>
-
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-83912193-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
+</article>
 
   </div>
 </main>

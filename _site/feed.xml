@@ -5,9 +5,63 @@
     <description>A blogging journey into code, Math, and ThinkPads.</description>
     <link>http://mattcree.github.io/</link>
     <atom:link href="http://mattcree.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Sep 2016 03:33:29 +0100</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2016 03:33:29 +0100</lastBuildDate>
+    <pubDate>Tue, 20 Sep 2016 01:50:31 +0100</pubDate>
+    <lastBuildDate>Tue, 20 Sep 2016 01:50:31 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>The ThinkPad X61: Thermal paste replacement</title>
+        <description>&lt;p&gt;The X61 was the last 4:3 aspect ultraportable produced by Lenovo; the end of an era. I’ve owned a couple of X60’s and an X61 and they all seemed to share the same issue – poor thermal performance. In laymans terms, they run seriously hot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0222.JPG&quot; alt=&quot;Front&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The model used by my partner has an Intel T7100 1.83GHz CPU. A little trick that can be used with these laptops for a little bit more performance, is to enable Dual-IDA by installing &lt;a href=&quot;http://www.thinkwiki.org/wiki/Middleton's_BIOS#Installation&quot;&gt;Middleton’s BIOS&lt;/a&gt;. IDA (Intel Dynamic Acceleration, later Turbo Boost) was, on these CPUs, limited to one core. It basically increments the CPU multiplier by one on one core for a bit of extra performance, shortening the race-to-idle. With Dual-IDA, it allows it to happen on both cores simultaneously (I use [ThrottleStop][8] to manage Core 2’s). Unfortunately the X61 gets mighty toasty when making use of this trick, so I decided it might be time to investigate the thermal paste.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-teardown&quot;&gt;The teardown&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0223.JPG&quot; alt=&quot;Keyboard off&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the X61 isn’t quite as easy to work on as, say, the T61 or T500. Being an ultraportable meant the design had to be a bit more clever to keep everthing fitting inside the limited space. In the X61’s case, the CPU and HSF are on the bottom of the board and the only way to access it is to remove the entire board.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0224.JPG&quot; alt=&quot;Motherboard removed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see above, there are quite a few cables with tiny connectors which have to be removed before you can lift the board out. I wonder if all the plastic protection (presumably anti-static?) on the top layer of the board might contributing to the generally poor thermal performance? The type of protection is generally only used sparingly on the larger laptops.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0225.JPG&quot; alt=&quot;Motherboard bottom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the board is out, it’s a simple process of unscrewing the heat sink. Note: to remove it completely, there’s a screw that attaches it from the other side of the board, inside the ExpressCard slot – it’s easy to miss.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0227.JPG&quot; alt=&quot;Old paste&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The old paste was fairly caked on, which is fairly common for factory installed paste. It wasn’t as dry and brittle as I have come to expect. Unfortunately my thermal paste (Arctic MX-5) was dropped and the nozzle popped off, leaving me with a hassle every time I want to put some paste on something. It’s always messy!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/x61/DSC_0228.JPG&quot; alt=&quot;New paste&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not my finest hour in terms of thermal paste application – I did what I could without making a pig’s ear of it. I decided to ditch the thermal pad covering the, what I presume to be, Intel X3100 chip in favour of fairly hefty quantity of paste – I had to make up the thickness of the pad. I reckon a thick helping of paste is better than any pad though I tend to subscribe to the ‘less is more’ school of thermal paste (if such a thing exists).&lt;/p&gt;
+
+&lt;p&gt;So far the thermals seem marginally better, but I’m going to let the paste cure for a bit before passing final judgment. I wish it had a Penryn!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Sep 2016 00:00:00 +0100</pubDate>
+        <link>http://mattcree.github.io/technology/2016/09/20/x61-thermal-paste.html</link>
+        <guid isPermaLink="true">http://mattcree.github.io/technology/2016/09/20/x61-thermal-paste.html</guid>
+        
+        <category>lenovo</category>
+        
+        <category>thinkpad</category>
+        
+        <category>x61</category>
+        
+        <category>thermal</category>
+        
+        <category>paste</category>
+        
+        <category>teardown</category>
+        
+        
+        <category>technology</category>
+        
+      </item>
     
       <item>
         <title>The Upgraded iPod Mini in 2016</title>
