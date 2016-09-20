@@ -43,3 +43,4 @@ So far the thermals seem marginally better, but I'm going to let the paste cure 
 [5]: /assets/x61/DSC_0227.JPG
 [6]: /assets/x61/DSC_0228.JPG
 [7]: http://www.thinkwiki.org/wiki/Middleton's_BIOS#Installation
+[8]: https://www.techpowerup.com/downloads/Utilities/ThrottleStop/
