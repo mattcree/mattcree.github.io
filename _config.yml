@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Cree	
-email: nostalgiaforinfinity@protonmail.com
-description: A blogging journey into code, Math, and ThinkPads.
+email: mattcree@proton.me
+description: The notes and musings of Matt Cree.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mattcree.github.io" # the base hostname & protocol for your site
+url: "https://mattcree.github.io" # the base hostname & protocol for your site
 github_username:  mattcree
 
 # Build settings
