@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reverse Engineering the Xiaomi Jimny RC Car's Bluetooth Protocol"
-date:   2025-01-07
+date:   2026-01-07
 categories: hardware
 tags: bluetooth ble reverse-engineering rc-car xiaomi python apk decompilation iot hardware claude-code ai
 ---
