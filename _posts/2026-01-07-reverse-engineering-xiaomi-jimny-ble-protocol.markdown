@@ -33,7 +33,7 @@ Publishing protocol documentation is legal - APIs and protocols aren't copyright
 | Scale | 1:16 |
 | Drive | 4WD |
 
-The car has two main PCBs: a main controller/ESC board, and what's labelled as a "D-BLD" receiver board containing the BLE module. Charging is via a USB port hidden in the exhaust pipe - a nice touch.
+The car has a single PCB that handles everything - motor control, BLE communications, and charging. The board is labelled "D-BLD" and contains the BLE module alongside the ESC circuitry. Charging is via a USB port hidden in the exhaust pipe - a nice touch.
 
 The LED indicators are helpful for debugging:
 
